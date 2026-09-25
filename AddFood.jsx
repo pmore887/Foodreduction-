@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from './AuthContext.jsx'
-import { supabase, FOOD_CATEGORIES, UNITS } from '../lib/supabaseClient.js'
-import { logHistory } from '../lib/helpers.js'
+import { supabase, FOOD_CATEGORIES, UNITS } from './supabaseClient.js'
+import { logHistory } from './helpers.js'
 import { Leaf, CheckCircle } from 'lucide-react'
 
 export default function AddFood() {
