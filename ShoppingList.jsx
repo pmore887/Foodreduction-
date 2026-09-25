@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import { useAuth } from '../lib/AuthContext.jsx'
-import { supabase, FOOD_CATEGORIES, UNITS } from '../lib/supabaseClient.js'
-import { logHistory } from '../lib/helpers.js'
+import { useAuth } from './AuthContext.jsx'
+import { supabase, FOOD_CATEGORIES, UNITS } from './supabaseClient.js'
+import { logHistory } from './helpers.js'
 import { ShoppingCart, Check, Trash2, Plus, Package, AlertCircle } from 'lucide-react'
 
 export default function ShoppingList() {
