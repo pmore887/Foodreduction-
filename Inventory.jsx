@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import { useAuth } from '../lib/AuthContext.jsx'
-import { supabase, FOOD_CATEGORIES, UNITS } from '../lib/supabaseClient.js'
-import { logHistory, getExpiryBadge } from '../lib/helpers.js'
+import { useAuth } from './AuthContext.jsx'
+import { supabase, FOOD_CATEGORIES, UNITS } from './supabaseClient.js'
+import { logHistory, getExpiryBadge } from './helpers.js'
 import { Search, Pencil, Trash2, X, Package, Filter } from 'lucide-react'
 
 export default function Inventory() {
