@@ -17,6 +17,7 @@ import NGOSection from './NGOSection.jsx'
 import DonationHistory from './DonationHistory.jsx'
 import History from './History.jsx'
 import MoneySaved from './MoneySaved.jsx'
+import './index.css'
 
 function ProtectedRoute({ children }) {
   const { user, loading } = useAuth()
