@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import { useAuth } from '../lib/AuthContext.jsx'
-import { supabase } from '../lib/supabaseClient.js'
-import { getDaysUntilExpiry, getExpiryStatus } from '../lib/helpers.js'
+import { useAuth } from './AuthContext.jsx'
+import { supabase } from './supabaseClient.js'
+import { getDaysUntilExpiry, getExpiryStatus } from './helpers.js'
 import { AlertTriangle, CheckCircle, XCircle, Clock } from 'lucide-react'
 
 export default function ExpiryReminder() {
