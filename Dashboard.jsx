@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { useAuth } from '../lib/AuthContext.jsx'
+import { useAuth } from './AuthContext.jsx'
 import { fetchDashboardStats, getExpiryStatus, formatINR } from '../lib/helpers.js'
-import { supabase } from '../lib/supabaseClient.js'
+import { supabase } from './supabaseClient.js'
 import {
   Package, AlertTriangle, HeartHandshake, Trash2, TrendingDown,
   Wallet, ShoppingCart, Leaf, ArrowRight,
