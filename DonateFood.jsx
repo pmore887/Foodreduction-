@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { useAuth } from '../lib/AuthContext.jsx'
-import { supabase, UNITS } from '../lib/supabaseClient.js'
-import { logHistory } from '../lib/helpers.js'
+import { useAuth } from './AuthContext.jsx'
+import { supabase, UNITS } from './supabaseClient.js'
+import { logHistory } from './helpers.js'
 import { HeartHandshake, CheckCircle } from 'lucide-react'
 
 export default function DonateFood() {
