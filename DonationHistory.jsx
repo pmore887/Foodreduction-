@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import { useAuth } from '../lib/AuthContext.jsx'
-import { supabase } from '../lib/supabaseClient.js'
+import { useAuth } from './AuthContext.jsx'
+import { supabase } from './supabaseClient.js'
 import { HeartHandshake, AlertCircle } from 'lucide-react'
 
 export default function DonationHistory() {
