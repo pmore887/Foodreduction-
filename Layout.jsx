@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import { useAuth } from '../lib/AuthContext.jsx'
+import { useAuth } from './AuthContext.jsx'
 import {
   Menu, X, LogOut, Leaf,
   LayoutDashboard, PackagePlus, Boxes, Clock, Trash2,
