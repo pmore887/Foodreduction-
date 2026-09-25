@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import { useAuth } from '../lib/AuthContext.jsx'
-import { supabase, FOOD_PRICE_RANGES, formatINR } from '../lib/supabaseClient.js'
-import { estimateFoodValue } from '../lib/helpers.js'
+import { useAuth } from './AuthContext.jsx'
+import { supabase, FOOD_PRICE_RANGES, formatINR } from './supabaseClient.js'
+import { estimateFoodValue } from './helpers.js'
 import { Wallet, TrendingDown, HeartHandshake, Trash2 } from 'lucide-react'
 
 export default function MoneySaved() {
