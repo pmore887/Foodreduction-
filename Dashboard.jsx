@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useAuth } from './AuthContext.jsx'
-import { fetchDashboardStats, getExpiryStatus, formatINR } from './lib/helpers.js'
+import { fetchDashboardStats, getExpiryStatus, formatINR } from './helpers.js'
 import { supabase } from './supabaseClient.js'
 import {
   Package, AlertTriangle, HeartHandshake, Trash2, TrendingDown,
