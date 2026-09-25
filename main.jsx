@@ -1,7 +1,3 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import { AuthProvider, useAuth } from './AuthContext.jsx'
 import Layout from './Layout.jsx'
 import Login from './Login.jsx'
 import Register from './Register.jsx'
@@ -16,7 +12,6 @@ import NGOSection from './NGOSection.jsx'
 import DonationHistory from './DonationHistory.jsx'
 import History from './History.jsx'
 import MoneySaved from './MoneySaved.jsx'
-import './index.css'
 
 function ProtectedRoute({ children }) {
   const { user, loading } = useAuth()
