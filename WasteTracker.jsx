@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import { useAuth } from '../lib/AuthContext.jsx'
-import { supabase, UNITS, WASTE_REASONS, FOOD_PRICE_RANGES, formatINR } from '../lib/supabaseClient.js'
-import { logHistory, estimateFoodValue } from '../lib/helpers.js'
+import { useAuth } from './AuthContext.jsx'
+import { supabase, UNITS, WASTE_REASONS, FOOD_PRICE_RANGES, formatINR } from './supabaseClient.js'
+import { logHistory, estimateFoodValue } from './helpers.js'
 import { Trash2, TrendingDown, Wallet, AlertCircle } from 'lucide-react'
 
 export default function WasteTracker() {
